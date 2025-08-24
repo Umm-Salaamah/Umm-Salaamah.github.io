@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Your Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <div class="nav-container">
+      <button class="nav-hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul id="nav-menu">
+        <li><a href="#intro">Intro</a></li>
+        <li><a href="#contents">Table of Contents</a></li>
+        <li><a href="#samples">Work Samples</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <section id="intro" class="card intro-card">
+  <div class="intro-content">
+    <div>
+      <h1 class="intro-title">
+        <span class="wave">👋</span> Welcome to My Portfolio!
+      </h1>
+      <p class="intro-desc">
+        As a <span class="highlight">recent graduate</span> with a <strong>First Class Honours</strong> degree in Computer Science,<br>
+        I bring a strong mix of <span class="highlight">academic excellence</span> and <span class="highlight">hands-on IT support experience</span>.<br>
+        I <span class="sparkle">love troubleshooting</span>, learning new technologies <span class="sparkle">✨</span>, and helping people.<br>
+        I’m confident I can be an <span class="cta">excellent addition to any IT team!</span>
+      </p>
+    </div>
+  </div>
+</section>
+
+ <section id="resume" class="card resume-card">
+  <h2 style="text-align: center;">
+    <span class="resume-icon"></span> Resume
+  </h2>
+  <div class="resume-row">
+    <div class="resume-col resumespecial">
+      <h3 class="resume-subtitle">Education</h3>
+      <p class="resume-highlight">B.SC COMPUTER SCIENCE <br>
+        <span class="resume-honours">First Class Honours</span>
+      </p>
+    </div>
+    <div class="resume-col">
+      <h3 class="resume-subtitle">Experience</h3>
+      <ul class="resume-list">
+        <li>
+          <span class="resume-role">Volunteer IT Support Specialist</span>
+          <span class="resume-place">Western Library, Hull</span>
+          <span class="resume-date">May 2025 – Present</span>
+        </li>
+        <li>
+          <span class="resume-role">Technical Writer</span>
+          <span class="resume-place">UmmTech</span>
+          <span class="resume-date">May 2025 – Present</span>
+        </li>
+        <li>
+          <span class="resume-role">Web Design Intern</span>
+          <span class="resume-place">HiiT Plc</span>
+          <span class="resume-date">March 2025 – October 2025</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="resume-row">
+    <div class="resume-col skills-col">
+      <h3 class="resume-subtitle">Skills</h3>
+      <ul class="skills-list">
+        <li>Windows 365</li>
+        <li>Linux/Ubuntu</li>
+        <li>Technical Troubleshooting</li>
+        <li>Written & Verbal Communication</li>
+        <li>Active Directory</li>
+        <li>Virtual Support/Virtualisation</li>
+        <li>Endpoint Security</li>
+        <li>Customer Service</li>
+      </ul>
+    </div>
+  </div>
+  <div class="resume-actions">
+    <a href="https://docs.google.com/document/d/16u4v-gQFlw8O4VYvfcjHGLILewL0r90cdcloBG1TpOE/edit?tab=t.0" target="_blank" class="resume-btn">View Full Resume</a>
+  </div>
+</section>
+
+<section id="samples" class="card samples-modal-card">
+  <h2>Work Samples</h2>
+  <div class="samples-grid">
+    <!-- Sample Card 1 -->
+    <div class="sample-card" data-modal="modal1">
+      <h3>Building a Virtual Home Lab for IT Exploration</h3>
+      <p class="sample-brief">I built a virtual home lab using Oracle VirtualBox to safely experiment with different operating systems.</p>
+      <button class="details-btn">View Details</button>
+    </div>
+    <!-- Sample Card 2 -->
+    <div class="sample-card" data-modal="modal2">
+      <h3>Securing Endpoints for Remote Workers</h3>
+      <p class="sample-brief">I created an educational guide for remote workers on how to protect their devices from cyber threats.</p>
+      <button class="details-btn">View Details</button>
+    </div>
+    <!-- Sample Card 3 -->
+    <div class="sample-card" data-modal="modal3">
+      <h3>Managing User Accounts and Permissions</h3>
+      <p class="sample-brief">This project outlines my process for creating and managing a new user account on a personal computer.</p>
+      <button class="details-btn">View Details</button>
+    </div>
+    <!-- Sample Card 4 -->
+    <div class="sample-card" data-modal="modal4">
+      <h3>Wireless Network Optimisation</h3>
+      <p class="sample-brief">I completed a Coursera assignment focused on wireless channel management to improve network performance. </p>
+      <button class="details-btn">View Details</button>
+    </div>
+  </div>
+
+  <!-- Modal 1 -->
+  <div class="modal" id="modal1">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h3>Building a Virtual Home Lab for IT Exploration</h3>
+      <p><strong>Description:</strong> I built a virtual home lab using Oracle VirtualBox to safely experiment with different operating systems. I installed Parrot OS, a Linux-based system, to practice troubleshooting, 
+        command-line scripting, and other IT skills in a risk-free environment.</p>
+      <p><strong>Role & Contribution:</strong>Self-Taught Technical Explorer</p>
+      <p><strong>Tools Used:</strong> Oracle VirtualBox, Parrot OS, Substack(For Documentation)</p>
+      <p><strong>Results:</strong>
+        <ol><li>Successfully created a personal learning lab.</li>
+        <li>Gained hands-on experience in virtualization.</li>
+        <li>Showcased my ability to learn new technologies independently.</ol>
+    </p>
+      <div class="resume-actions">
+        <a href="https://thesunsetlover.substack.com/p/how-i-built-my-home-lab" target="_blank" class="resume-btn">Read More on Substack</a>
+        </div>
+    </div>
+  </div>
+  <!-- Modal 2 -->
+  <div class="modal" id="modal2">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h3> Securing Endpoints for Remote Workers</h3>
+      <p><strong>Description:</strong>  I created an educational guide for remote workers on how to protect their devices from cyber threats. This project breaks down complex security concepts into simple, actionable steps, 
+        covering essential topics like device updates, password strength, antivirus software, and safe browsing habits.</p>
+      <p><strong>Role & Contribution:</strong> Technical Writer & Cybersecurity Advocate</p>
+      <p><strong>Tools Used:</strong> Substack (for content creation and publication), Microsoft Windows (for demonstration), Google (for research and phishing quiz reference)</p>
+      <p><strong>Results:</strong>
+        <ol><li>Successfully translated a technical topic into user-friendly content.</li>
+        <li>Demonstrated my ability to communicate complex IT concepts to a broad audience.</li>
+        <li>Showcased knowledge of endpoint security, antivirus, firewalls, and phishing awareness.</ol>
+    </p>
+      <div class="resume-actions">
+        <a href="https://thesunsetlover.substack.com/p/hey-remote-workers" target="_blank" class="resume-btn">Read More on Substack</a>
+      </div>
+    </div>
+  </div>
+  <!-- Modal 3 -->
+  <div class="modal" id="modal3">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h3>Managing User Accounts and Permissions</h3>
+      <p><strong>Description:</strong> This project outlines my process for creating and managing a new user account on a personal computer. Using both the graphical user interface (GUI) and the command line, I demonstrate the principles of user administration, including creating a new user, 
+        setting a temporary password, and enforcing a password change upon first login to ensure security.</p>
+      <p><strong>Role & Contribution:</strong> IT Administrator & Technical Writer</p>
+      <p><strong>Tools Used:</strong> Command Prompt, Powershell, Computer Management, Active Directory, Substack</p>
+      <p><strong>Results:</strong> 
+        <ol><li>Successfully created a new, secure user profile.</li>
+        <li>Demonstrated practical skills in user and group management.</li>
+        <li>Showcased my understanding of IT administration best practices, such as the principle of 
+            least privilege and password security.</li>
+        <li>Produced easy-to-understand content on a core IT support topic.</li>
+        </ol>
+    </p>
+      <div class="resume-actions">
+        <a href="https://thesunsetlover.substack.com/p/users-administrators-and-groups" target="_blank" class="resume-btn">Read More on Substack</a>
+      </div>
+    </div>
+  </div>
+  <!-- Modal 4 -->
+  <div class="modal" id="modal4">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h3>Wireless Network Optimisation</h3>
+      <p><strong>Description:</strong>  I completed a Coursera assignment focused on wireless channel management to improve network performance. 
+        The project involved strategically selecting Wi-Fi channels to avoid interference from other nearby networks, which is a common cause of slow speeds and dropped connections. 
+        This demonstrates my practical understanding of wireless networking concepts and my ability to troubleshoot connectivity issues.</p>
+      <p><strong>Role & Contribution:</strong>  Network Troubleshooter & Self-Directed Learner</p>
+      <p><strong>Tools Used:</strong> Coursera, 2.4Ghz Spectrum, Substack</p>
+      <p><strong>Results:</strong> 
+        <ol><li>Successfully completed an advanced networking assignment.</li>
+        <li>Gained hands-on knowledge in wireless troubleshooting and optimization.</li>
+        <li>Showcased a proactive approach to learning technical skills beyond a classroom setting.</li>
+        <li>Produced a clear explanation of a complex technical topic, demonstrating strong communication skills.</li>
+        </ol>
+    </p>
+      <div class="resume-actions">
+        <a href="https://thesunsetlover.substack.com/p/my-learning-of-wireless-interference" target="_blank" class="resume-btn">Read More on Substack</a>
+      </div>
+    </div>
+  </div>
+</section>
+  <section id="achievements" class="card">
+    <h2>Achievements</h2>
+    <ul>
+      <li style="margin-bottom: 20px;"><strong> First Class Honours: </strong> Graduated with a First Class Honours degree in Computer Science in 2024, 
+        demonstrating academic excellence and a strong foundation in the field.</li>
+      <li><strong> Recognized Leader: </strong> Honored as one of the "20+2 Brilliant Muslim Women in Nigeria" in 2024, 
+        an award that acknowledges leadership and significant contributions.</li>
+      <!-- Add more achievements as needed -->
+    </ul>
+  </section>
+
+  <section id="contact" class="card">
+    <h2>Contact Information</h2>
+    <ul>
+      <li style="margin-bottom: 20px;">Email: <a href="mailto:yusufshukurah59@gmail.com">yusufshukurah59@gmail.com</a></li>
+      <li style="margin-bottom: 20px;">LinkedIn: <a href="www.linkedin.com/in/yusuf-shukurah" target="_blank">www.linkedin.com/in/yusuf-shukurah</a></li>
+      <li style="margin-bottom: 20px;">Substack: <a href="https://thesunsetlover.substack.com/" target="_blank">https://thesunsetlover.substack.com/</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p style="color: white;">© Shukrah Yusuf | Built with ❤️</p>
+  </footer>
+  <script src="index.js"></script>
+</body>
+</html>
